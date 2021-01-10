@@ -2,7 +2,7 @@ import * as actionTypes from '../actions/types';
 
 const initialState = {
     orders: [],
-    place:'peppinos'
+    place:''
 }
 export default (state = initialState, action) => {
     switch (action.type){
