@@ -10,6 +10,7 @@ import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import Admin from './pages/Admin';
 import Update from './pages/Update';
+import NotFound from './pages/NotFound';
 
 export const history = createBrowserHistory()
 
@@ -29,6 +30,7 @@ class App extends Component {
             <Route path="/order" component={ Dashboard } />
             <Route path="/admin" component={ Admin } />
             <Route path="/update" component={ Update } />
+            <Route component = {NotFound} />
           </Switch>
         </div>
       </Router>

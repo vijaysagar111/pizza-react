@@ -5,8 +5,6 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 import * as orderAction from '../actions/orderAction';
-
-import Order from '../components/Order';
 import Navbar from '../components/Navbar';
 
 import no_data from '../assets/images/no-data.svg';
